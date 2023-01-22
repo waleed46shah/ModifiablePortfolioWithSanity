@@ -1,13 +1,14 @@
 .app__works{
     flex: 1;
     width: 100%;
-    flex-direction:column; 
+    flex-direction: column;
+    transition: 0.3s;
 }
 
 .app__work-filter{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     
