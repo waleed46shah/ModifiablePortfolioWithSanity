@@ -14,7 +14,6 @@ const Skills = () => {
     const query = '*[_type == "experiences"]';
     const skillsquery = '*[_type == "skills"]';
     client.fetch(query).then((data)=>{
-      console.log(data);
       setExperience(data);
       
     })
@@ -59,7 +58,6 @@ const Skills = () => {
               key={experience.year}
             >
               <div className='app__skills-exp-year'>
-                {console.log('----',experience.year)}
                 <p className='bold-text'>{experience.year}</p>
               </div>
               <motion.div
